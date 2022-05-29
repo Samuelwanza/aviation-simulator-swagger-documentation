@@ -1,0 +1,15 @@
+###
+GET https://www.facebook.com
+
+###
+GET http://localhost:4000/receivers
+
+###
+POST http://localhost:4000/receivers/new
+Content-Type: application/json
+
+{"latitude": -1.7000,
+"longitude":30.0100,
+"coverage_radius": 6000}
+
+
